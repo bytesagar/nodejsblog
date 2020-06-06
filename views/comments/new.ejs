@@ -1,0 +1,19 @@
+<h1 class="text-center mt-4 mb-4">Add new comment to <%= blog.title %></h1>
+<div class="container">
+  <form action="/articles/<%= blog.slug %>/comments " method="POST">
+    <div class="form-group">
+      <input
+        type="text"
+        name="text"
+        class="form-control"
+        placeholder="Text"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Post Comment</button>
+    </div>
+  </form>
+  <a href="/articles/<%= blog.slug %> ">Go Back</a>
+</div>

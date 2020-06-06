@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row mt-5">
+      <div class="col-md-6 m-auto">
+        <div class="card card-body">
+          <h1 class="text-center mb-3">
+            </i> Code From Email
+          </h1>
+          <%- include ('./partials/messages') %>
+          <form action="/users/confirmation" method="POST">
+            <div class="form-group">
+              <label for="password">You have been sent a message with a code to your email</label>
+              <input
+                type="password"
+                id="password"
+                name="confirmationCode"
+                class="form-control"
+                autocomplete="off"
+                placeholder="Enter Confirmation Code"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
