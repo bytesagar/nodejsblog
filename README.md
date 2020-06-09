@@ -8,7 +8,8 @@
 - npm install
 - setup the env variables
 - npm start
-  > The project will start on localhost:3000
+  
+> The project will start on localhost:3000
 
 ## Tools Used
 
@@ -31,6 +32,8 @@
 - Mobile Responsive
 - Password Reset
 
+## Screenshots
+
 ### Home
 
 ![home](https://github.com/sagar608/nodejsblog/blob/master/screenshots/home.png)
@@ -39,8 +42,14 @@
 
 ![registration](https://github.com/sagar608/nodejsblog/blob/master/screenshots/register.png)
 
-![registration](https://github.com/sagar608/nodejsblog/blob/master/screenshots/login.png)
+![login](https://github.com/sagar608/nodejsblog/blob/master/screenshots/login.png)
 
 ### New Blog
 
 ![new](https://github.com/sagar608/nodejsblog/blob/master/screenshots/new.png)
+
+## Live Preview
+[https://fusobotics-blog.herokuapp.com/](https://fusobotics-blog.herokuapp.com/)
+
+## LICENSE
+**MIT**
