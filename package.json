@@ -4,7 +4,8 @@
   "description": "Simple nodejs blog site",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "prettier": "prettier --write \"**/*.js\""
   },
   "author": "sagar karki",
   "license": "MIT",
@@ -27,6 +28,7 @@
     "slugify": "^1.4.0"
   },
   "devDependencies": {
-    "countable": "^3.0.1"
+    "countable": "^3.0.1",
+    "prettier": "^2.1.2"
   }
 }
