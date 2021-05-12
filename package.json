@@ -22,7 +22,7 @@
     "marked": "^1.0.0",
     "method-override": "^3.0.0",
     "mongoose": "^5.9.12",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "slugify": "^1.4.0"
