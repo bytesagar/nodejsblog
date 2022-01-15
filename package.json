@@ -19,7 +19,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
     "jsdom": "^16.2.2",
-    "marked": "^1.0.0",
+    "marked": "^4.0.10",
     "method-override": "^3.0.0",
     "mongoose": "^5.9.12",
     "nodemailer": "^6.4.6",
